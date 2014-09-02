@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title></title>
+		<script type="text/javascript" src="jquery-library.js"></script>
+		<style type="text/css">
+		.ts
+		{
+			width: 500px;
+			height: 500px;
+			
+			border: 1px green solid;
+			margin:0 auto;  
+			display: none;
+		}
+		.active
+		{
+			display: block !important; 
+			border: 5px #ccc solid !important;
+
+		}
+		</style>
+
+	</head>
+
+	<body>
+	<div id="tabs-wrapper">
+		<div class="ts active" id="1" data-index="1">1<div id="form"><input type="text" require /><input type="text" require /><input type="text" require /></div></div>
+		<div class="ts" id="2" data-index="2">2<div id="form"><input type="text" require /><input type="text" require /><input type="text" require /></div></div>
+		<div class="ts" id="3" data-index="3">3<div id="form"><input type="text" require /><input type="text" require /><input type="text" require /></div></div>
+		<div class="ts" id="4" data-index="4">4<div id="form"><input type="text" require /><input type="text" require /><input type="text" require /></div></div>
+		<div class="ts" id="5" data-index="5">5</div>
+		<div class="ts" id="6" data-index="6">6</div>
+		<div class="ts" id="7" data-index="7">7</div>
+		<div class="ts" id="8" data-index="8">8</div>
+		<div class="ts" id="9" data-index="9">9</div>
+		<div class="ts" id="10" data-index="10">0</div>
+	<div align="center"><button type="button" id="prev">Previous</button><button type="button" id="next">Next</button><button id="finish" type="submit">Finish</button></div>
+</div>
+	<script type="text/javascript" src="jquery.tabs.js"></script>
+	</body>
+</html>
